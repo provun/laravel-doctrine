@@ -2,7 +2,8 @@
 
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityRepository;
-use Illuminate\Auth\UserInterface;
+//use Illuminate\Auth\UserInterface;
+use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Auth\UserProviderInterface;
 use Illuminate\Hashing\HasherInterface;
 
